@@ -16,6 +16,10 @@
 		D461D11F1CC5431D003F24D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D461D11D1CC5431D003F24D4 /* LaunchScreen.storyboard */; };
 		D461D12A1CC5431D003F24D4 /* lockPickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461D1291CC5431D003F24D4 /* lockPickTests.swift */; };
 		D461D1351CC5431D003F24D4 /* lockPickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461D1341CC5431D003F24D4 /* lockPickUITests.swift */; };
+		D461D1431CC554C8003F24D4 /* CGFloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D461D1421CC554C8003F24D4 /* CGFloatExtension.swift */; };
+		D461D1451CCA6D19003F24D4 /* lockPicked.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D461D1441CCA6D19003F24D4 /* lockPicked.mp3 */; };
+		D461D1471CCA7869003F24D4 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D461D1461CCA7869003F24D4 /* 1.mp3 */; };
+		D461D1491CCA7ADE003F24D4 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D461D1481CCA7ADE003F24D4 /* 2.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		D461D1301CC5431D003F24D4 /* lockPickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lockPickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D461D1341CC5431D003F24D4 /* lockPickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lockPickUITests.swift; sourceTree = "<group>"; };
 		D461D1361CC5431D003F24D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D461D1421CC554C8003F24D4 /* CGFloatExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
+		D461D1441CCA6D19003F24D4 /* lockPicked.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lockPicked.mp3; sourceTree = "<group>"; };
+		D461D1461CCA7869003F24D4 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		D461D1481CCA7ADE003F24D4 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +109,13 @@
 		D461D10F1CC5431D003F24D4 /* lockPick */ = {
 			isa = PBXGroup;
 			children = (
+				D461D1461CCA7869003F24D4 /* 1.mp3 */,
+				D461D1481CCA7ADE003F24D4 /* 2.mp3 */,
+				D461D1441CCA6D19003F24D4 /* lockPicked.mp3 */,
 				D461D1101CC5431D003F24D4 /* AppDelegate.swift */,
 				D461D1121CC5431D003F24D4 /* GameScene.sks */,
 				D461D1141CC5431D003F24D4 /* GameScene.swift */,
+				D461D1421CC554C8003F24D4 /* CGFloatExtension.swift */,
 				D461D1161CC5431D003F24D4 /* GameViewController.swift */,
 				D461D1181CC5431D003F24D4 /* Main.storyboard */,
 				D461D11B1CC5431D003F24D4 /* Assets.xcassets */,
@@ -235,9 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D461D1471CCA7869003F24D4 /* 1.mp3 in Resources */,
 				D461D1131CC5431D003F24D4 /* GameScene.sks in Resources */,
+				D461D1451CCA6D19003F24D4 /* lockPicked.mp3 in Resources */,
 				D461D11F1CC5431D003F24D4 /* LaunchScreen.storyboard in Resources */,
 				D461D11C1CC5431D003F24D4 /* Assets.xcassets in Resources */,
+				D461D1491CCA7ADE003F24D4 /* 2.mp3 in Resources */,
 				D461D11A1CC5431D003F24D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 			files = (
 				D461D1151CC5431D003F24D4 /* GameScene.swift in Sources */,
 				D461D1171CC5431D003F24D4 /* GameViewController.swift in Sources */,
+				D461D1431CC554C8003F24D4 /* CGFloatExtension.swift in Sources */,
 				D461D1111CC5431D003F24D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +510,7 @@
 				D461D13B1CC5431D003F24D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D461D13C1CC5431D003F24D4 /* Build configuration list for PBXNativeTarget "lockPickTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +519,7 @@
 				D461D13E1CC5431D003F24D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D461D13F1CC5431D003F24D4 /* Build configuration list for PBXNativeTarget "lockPickUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +528,7 @@
 				D461D1411CC5431D003F24D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
